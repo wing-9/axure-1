@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="25px" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <mask fill="white" id="clip64">
+    <mask fill="white" id="clip110">
       <path d="M 0 7.5  C 0 3.30000000000001  3.3 0  7.5 0  C 11.7 0  15 3.30000000000001  15 7.5  C 15 9.59999999999999  14.175 11.475  12.825 12.825  C 11.475 14.175  9.59999999999999 15  7.5 15  C 3.3 15  0 11.7  0 7.5  Z " fill-rule="evenodd" />
     </mask>
-    <filter x="120px" y="192px" width="25px" height="25px" filterUnits="userSpaceOnUse" id="filter65">
+    <filter x="120px" y="192px" width="25px" height="25px" filterUnits="userSpaceOnUse" id="filter111">
       <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetInner" />
       <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
       <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
       <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.698039215686274 0  " in="shadowComposite" />
     </filter>
-    <g id="widget66">
+    <g id="widget112">
       <path d="M 0 7.5  C 0 3.30000000000001  3.3 0  7.5 0  C 11.7 0  15 3.30000000000001  15 7.5  C 15 9.59999999999999  14.175 11.475  12.825 12.825  C 11.475 14.175  9.59999999999999 15  7.5 15  C 3.3 15  0 11.7  0 7.5  Z " fill-rule="nonzero" fill="#d9001b" stroke="none" transform="matrix(1 0 0 1 124 196 )" />
-      <path d="M 0 7.5  C 0 3.30000000000001  3.3 0  7.5 0  C 11.7 0  15 3.30000000000001  15 7.5  C 15 9.59999999999999  14.175 11.475  12.825 12.825  C 11.475 14.175  9.59999999999999 15  7.5 15  C 3.3 15  0 11.7  0 7.5  Z " stroke-width="2" stroke="#ffffff" fill="none" transform="matrix(1 0 0 1 124 196 )" mask="url(#clip64)" />
+      <path d="M 0 7.5  C 0 3.30000000000001  3.3 0  7.5 0  C 11.7 0  15 3.30000000000001  15 7.5  C 15 9.59999999999999  14.175 11.475  12.825 12.825  C 11.475 14.175  9.59999999999999 15  7.5 15  C 3.3 15  0 11.7  0 7.5  Z " stroke-width="2" stroke="#ffffff" fill="none" transform="matrix(1 0 0 1 124 196 )" mask="url(#clip110)" />
     </g>
   </defs>
   <g transform="matrix(1 0 0 1 -120 -192 )">
-    <use xlink:href="#widget66" filter="url(#filter65)" />
-    <use xlink:href="#widget66" />
+    <use xlink:href="#widget112" filter="url(#filter111)" />
+    <use xlink:href="#widget112" />
   </g>
 </svg>
