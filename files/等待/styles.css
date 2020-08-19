@@ -612,7 +612,7 @@
   left:0px;
   top:0px;
   width:224px;
-  height:16px;
+  height:48px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -628,7 +628,7 @@
   left:460px;
   top:219px;
   width:224px;
-  height:16px;
+  height:48px;
   display:flex;
   font-size:14px;
 }
@@ -685,7 +685,7 @@
   border-width:0px;
   position:absolute;
   left:423px;
-  top:264px;
+  top:301px;
   width:15px;
   height:15px;
   display:flex;
@@ -722,7 +722,7 @@
   border-width:0px;
   position:absolute;
   left:460px;
-  top:264px;
+  top:301px;
   width:28px;
   height:16px;
   display:flex;
@@ -760,7 +760,7 @@
   border-width:0px;
   position:absolute;
   left:460px;
-  top:294px;
+  top:331px;
   width:70px;
   height:16px;
   display:flex;
